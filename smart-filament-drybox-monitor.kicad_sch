@@ -4235,6 +4235,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB-C & Power\n"
+		(exclude_from_sim no)
+		(at 21.082 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b01f7dd-4db1-44d0-ba3b-538d7f231574")
+	)
 	(text "EN & RESET Buttons"
 		(exclude_from_sim no)
 		(at 198.882 116.586 0)
