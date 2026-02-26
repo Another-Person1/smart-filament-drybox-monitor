@@ -18,6 +18,8 @@ Most affordable hygrometers currently available suffer from significant limitati
 - Simple
 - Vendor agonistic
 - No subscriptions/cloud
+- Inexpensive
+- Easy to see display
 - Compatibility with existing "XF002" rectangular footprint
 - Local-first (over WiFi, Zigbee, or Thread)
 - Modern and clean aesthetic
