@@ -13,6 +13,8 @@ Project name will probably be changed along with a few minor details.
 ## Compatibility Notice (Please Read)
 **Please read carefully before proceeding.** This list is non-exhaustive but covers the most common use cases.
 
+The selected filament management system must feature an appropriately sized opening or other compatible mounting method (e.g., desiccant holder) for this device.
+
 ### Not Supported (Active Heating):
 
 - Any system featuring integrated or add-on heating elements
@@ -23,11 +25,10 @@ Project name will probably be changed along with a few minor details.
 
 ### Supported (Passive Drying):
 
-- Passive filament storage boxes using only desiccant to dry
+- Passive filament storage boxes using only desiccant for filament moisture control
 - Original Bambu AMS (without external or internal heater accessories)
 - Bambu AMS Lite
 - Prusa MMU2S/MMU3
-- Creality CFS
 - Other passive filament management systems without heating
 
 Disclaimer: I am not responsible for any damages or hardware failure caused by product misuse or use within unsupported thermal environments.
@@ -98,4 +99,4 @@ Coming soon!
 ---
 
 ### Trademark disclaimer:
-All trademarks mentioned on this page are the property of their respective owners. This project is not affiliated with, endorsed by, or connected to those organizations. We do not claim ownership of any intellectual property rights belonging to third parties.
+All trademarks mentioned on this page are the property of their respective owners. This project is not affiliated with, endorsed by, or connected to those organizations. I do not claim ownership of any intellectual property rights belonging to third parties.
