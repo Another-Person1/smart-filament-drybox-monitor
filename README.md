@@ -2,6 +2,8 @@
 
 A remote thermometer/hygrometer project for tracking 3D printer filament moisture levels via humidity/temperature sensing.
 
+Designed to go into a filament drybox/filament management system for measuring dfybox temperature/humidity.
+
 Helps prevent print failures caused by wet filament.
 
 Project name will probably be changed along with a few minor details.
@@ -11,17 +13,18 @@ Most affordable hygrometers currently available suffer from significant limitati
 1.  Many cannot measure reliably at the low humidity levels required for dry filament storage.
 2.  LR44 batteries are disposable, hard to find, and expensive (at least where I live)
 3.  Local-only sensors don't alert you when your filament is getting wet because your dessicant is oversaturated.
-4.  Devices that *do* offer remote monitoring often require binding keys, firmware flashing, Bluetooth proxies, and juggling multiple apps.
+4.  Devices that *do* offer remote monitoring often require extracting binding keys, firmware flashing, Bluetooth proxies, and juggling multiple apps.
 
 ## Goals:
 - Safe
-- Simple
+- Simple to use
 - Vendor agonistic
 - No subscriptions/cloud
 - Inexpensive
+- Accurate at low humidity levels
 - Easy to see display
 - Compatibility with existing "XF002" rectangular footprint
-- Local-first (over WiFi, Zigbee, or Thread)
+- Local-first (over WiFi, Zigbee, BLE, or Thread, going to make it Matter compatible)
 - Modern and clean aesthetic
 
 ---
@@ -60,6 +63,11 @@ Based on the goals above, the following components were selected:
 * Significantly longer lifecycle than standard lithium chemistries.
 * *Note: Charging requires specific LiFePO4 chargers/circuitry rather than standard Li-ion chips.*
 *   **Warning:** Abusing batteries can be dangerous regardless of chemistry. Handle with care.
+
+---
+
+## Software
+Coming soon!
 
 ---
 
