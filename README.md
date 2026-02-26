@@ -2,11 +2,37 @@
 
 A remote thermometer/hygrometer project for tracking 3D printer filament moisture levels via humidity/temperature sensing.
 
-Designed to go into a filament drybox/filament management system for measuring dfybox temperature/humidity.
+Designed to go into a filament drybox/filament management system for measuring drybox temperature/humidity.
 
-Helps prevent print failures caused by wet filament.
+Helps prevent print failures caused by wet filament by ensuring the drybox is dry.
 
 Project name will probably be changed along with a few minor details.
+
+---
+
+## Compatibility Notice (Please Read)
+**Please read carefully before proceeding.** This list is non-exhaustive but covers the most common use cases.
+
+### Not Supported (Active Heating):
+
+- Any system featuring integrated or add-on heating elements
+- Bambu AMS 2 Pro / AMS HT
+- Creality SpacePi
+- Sunlu FilaDryer / S series
+- Sunlu AMS Heater
+
+### Supported (Passive Drying):
+
+- Passive filament storage boxes using only desiccant to dry
+- Original Bambu AMS (without external or internal heater accessories)
+- Bambu AMS Lite
+- Prusa MMU2S/MMU3
+- Creality CFS
+- Other passive filament management systems without heating
+
+Disclaimer: I am not responsible for any damages or hardware failure caused by product misuse or use within unsupported thermal environments.
+
+---
 
 ## Problem
 Most affordable hygrometers currently available suffer from significant limitations:
