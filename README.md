@@ -38,10 +38,11 @@ Based on the goals above, the following components were selected:
 * Small size
 * Sufficient pins for all sensors and peripherals.
 
-### Display: [Good Display GDEM0154F51H](https://www.good-display.com/product/463.html)
+### Display: [Good Display GDEY0213F52](https://www.good-display.com/product/463.html)
 * Matches the intended enclosure design (rectangular interface).
 * E-Ink / ePaper technology offers excellent paper-like visibility and extremely low power consumption.
 * Supports 4 colours (Red, Black, Yellow, White) for status indicators.
+* Uses the common SPI interface
 * Robust driver support available for Arduino and ESP32.
 
 ### Temp/Humidity Sensor: [SHT41](https://sensirion.com/products/catalog/SHT41)
